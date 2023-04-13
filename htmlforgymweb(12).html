@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <!-- you must include an external css style sheet by  giving the link -->
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+/* css reset */
+body{
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    padding: 0px;
+    height: 2700px;
+/* you can give the background an image directly by specifying the path in the background before typig url('img/path of the image') */
+
+background: url('imageforgym/bg.jpg.jpg');
+}
+
+
+.left
+{
+    /* border: 2px solid red;  this was for refernec to keep a track if the elements inside left are going out or not */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 18px;
+}
+
+.left img{
+   margin-left: 20px;
+    width: 67.5px;
+}
+
+.left div{
+    text-align: center;
+    line-height: 9px;
+    font-size: 18px;
+
+}
+.mid
+{
+    /* border:2px solid rgb(255, 0, 0); */
+    display: block;
+    width: 33%;
+  
+    margin:1.5% auto;
+    
+    
+
+}
+.right
+{
+    /* border:2px solid rgb(251, 255, 0); */
+    position: absolute;
+    right: 34px;
+    top: 28px;
+
+}
+
+
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 2px;
+    margin: 8px;
+}
+
+.navbar li a:hover, .navbar li a.active
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.btn
+{
+    cursor: pointer;
+    font-size: 17px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid grey;
+    font-family: 'Pacifico', cursive;
+    
+}
+.btn:hover
+{
+    background-color: rgb(245, 220, 220);
+}
+.container h7{
+    text-align: center;
+    color: black;
+}
+
+.container{
+
+    margin-top: 550px;
+    margin-left: 20px;
+
+}
+
+.formgroup input{
+    text-align: center;
+        display: block;
+        width:350px;
+        padding: 2px;
+        border: 2px solid black;
+        margin-right:50px;
+        margin-top: 9px;
+        font-size: 15px;
+        border-radius: 8px;
+
+}
+
+.container button{
+    display: block;
+    width:10%;
+     margin-right:0px;
+     margin-left: 90px;
+}
+
+</style>
+<body>
+    <header
+    class="header">
+        <div class="left"><img src="imageforgym/pexels-koolshooters-9944907.jpg" alt=""><div>Max fitness club</div>
+        </div>
+
+        <div class="mid"><ul class="navbar"><li><a href="#" class="active">home</a></li>
+        
+        <li><a href="#">fitness calculator</a></li>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">about us</a></li></ul></div>
+
+        <div class="right"><button class="btn">call us</button>
+        <button class="btn">email us</button></div>
+    </header>
+
+    <div class="container">
+        <h7>JOIN THE FINEST GYM OF DEHRADUN NOW!</h7>
+        <form action="noactionfornow">
+            <div class="formgroup"><input type="text" name=" " placeholder="enter your name"></div>
+            <div class="formgroup"><input type="text" name=" " placeholder="age"></div>
+            <div class="formgroup"><input type="date" name=" " placeholder="birth date"></div>
+            <div class="formgroup"><input type="text" name=" " placeholder="contact number"></div>
+        <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
